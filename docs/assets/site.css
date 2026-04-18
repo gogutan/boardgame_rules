@@ -88,7 +88,7 @@ a {
   gap: 8px;
   margin-bottom: 18px;
   color: var(--color-accent);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -133,20 +133,20 @@ a {
   gap: 10px;
   margin-bottom: 12px;
   color: var(--color-text-secondary);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .game-card-copy {
   margin: 0;
   color: var(--color-text-primary);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
 .utility-note {
   margin-top: 28px;
   color: var(--color-text-secondary);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 @media (max-width: 860px) {
