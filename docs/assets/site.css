@@ -157,9 +157,9 @@ a {
 }
 
 .rules-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 12px 20px;
   padding: 18px 24px;
   background:
@@ -200,6 +200,54 @@ a {
   font-size: 14px;
   font-weight: 650;
   opacity: 0.95;
+}
+
+.rules-qr-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px 6px 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  text-decoration: none;
+  justify-self: end;
+  align-self: center;
+}
+
+.rules-qr-link:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.rules-qr-image {
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+  border-radius: 10px;
+  background: white;
+}
+
+.rules-qr-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.2;
+}
+
+.rules-qr-label {
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  opacity: 0.78;
+  text-transform: uppercase;
+}
+
+.rules-qr-caption {
+  font-size: 12px;
+  font-weight: 750;
+  white-space: nowrap;
 }
 
 .back-link {
@@ -338,6 +386,20 @@ a {
     font-size: 13px !important;
   }
 
+  .rules-qr-link {
+    gap: 8px;
+    padding: 4px 8px 4px 4px;
+  }
+
+  .rules-qr-image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .rules-qr-caption {
+    font-size: 11px;
+  }
+
   .rules-card > div:nth-child(2) {
     grid-template-columns: minmax(0, 1fr) !important;
     gap: 20px !important;
@@ -375,7 +437,8 @@ a {
     display: none;
   }
 
-  .rules-header {
+  .rules-header,
+  .rules-qr-link {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
