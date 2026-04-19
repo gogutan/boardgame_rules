@@ -16,13 +16,17 @@
 
       <div class="rules-card" style="background: var(--color-background-primary); border-radius: var(--border-radius-lg); border: 0.5px solid var(--color-border-tertiary); overflow: hidden; font-family: var(--font-sans);">
 
-        <div style="background: #1F5959; color: white; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
-          <div style="font-size: 22px; font-weight: 500; letter-spacing: 0.5px;">COYOTE</div>
-          <div style="display: flex; gap: 20px; font-size: 14px; opacity: 0.95; flex-wrap: wrap;">
-            <span>⚙ Bluff</span>
-            <span>👥 2–10</span>
-            <span>👤 10+</span>
-            <span>⏳ 15–30 min</span>
+        <div class="rules-header">
+          <div class="rules-header-copy">
+            <div class="rules-header-main">
+              <div class="rules-title">COYOTE</div>
+            </div>
+            <div class="rules-header-meta">
+              <span>⚙ Bluff</span>
+              <span>👥 2–10</span>
+              <span>👤 10+</span>
+              <span>⏳ 15–30 min</span>
+            </div>
           </div>
         </div>
 
@@ -31,17 +35,17 @@
           <div style="display: flex; flex-direction: column;">
             <div style="margin-bottom: 22px;">
               <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
-                <span style="width: 10px; height: 10px; border: 1.5px solid #1F5959; border-radius: 50%; display: inline-block;"></span>
+                <span style="width: 10px; height: 10px; border: 1.5px solid var(--color-accent); border-radius: 50%; display: inline-block;"></span>
                 <span style="font-size: 16px; font-weight: 500;">What kind of game?</span>
               </div>
               <p style="font-size: 14px; line-height: 1.65; color: var(--color-text-primary); margin: 0;">In this game, you look at the other players' numbers and try to predict the total sum of everyone's cards. Guess your own card and declare a number that doesn't exceed the total.</p>
               <p style="font-size: 14px; line-height: 1.65; color: var(--color-text-primary); margin: 10px 0 0;">If another player's number seems suspicious, take the leap:</p>
-              <p style="font-size: 15px; font-weight: 500; color: #1F5959; margin: 8px 0 0;">Ready, set — "Coyote!!"</p>
+              <p style="font-size: 15px; font-weight: 500; color: var(--color-accent); margin: 8px 0 0;">Ready, set — "Coyote!!"</p>
             </div>
 
             <div style="margin-bottom: 22px;">
               <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
-                <span style="width: 10px; height: 10px; border: 1.5px solid #1F5959; border-radius: 50%; display: inline-block;"></span>
+                <span style="width: 10px; height: 10px; border: 1.5px solid var(--color-accent); border-radius: 50%; display: inline-block;"></span>
                 <span style="font-size: 16px; font-weight: 500;">Victory condition</span>
               </div>
               <p style="font-size: 14px; line-height: 1.65; margin: 0;">Survive to the end without being eliminated (losing 3 times).</p>
@@ -98,37 +102,37 @@
 
           <div>
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 14px;">
-              <span style="width: 10px; height: 10px; border: 1.5px solid #1F5959; border-radius: 50%; display: inline-block;"></span>
+              <span style="width: 10px; height: 10px; border: 1.5px solid var(--color-accent); border-radius: 50%; display: inline-block;"></span>
               <span style="font-size: 16px; font-weight: 500;">How to play</span>
             </div>
 
             <div style="display: flex; gap: 10px; margin-bottom: 12px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">1</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">1</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Deal the cards.</span> Shuffle the number cards and deal one face-down card to each player. Hold it against your forehead facing outward — don't look at the front.</div>
             </div>
 
             <div style="display: flex; gap: 10px; margin-bottom: 12px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">2</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">2</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Starter declares.</span> The starting player looks at everyone else's cards and declares an integer of 1 or greater — estimate the total and stay below it.</div>
             </div>
 
             <div style="display: flex; gap: 10px; margin-bottom: 8px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">3</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">3</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Next player chooses.</span></div>
             </div>
             <div style="margin-left: 32px; margin-bottom: 12px; font-size: 13px; line-height: 1.5;">
               <div style="display: flex; gap: 8px; margin-bottom: 6px;">
-                <span style="flex-shrink: 0; background: #E1F5EE; color: #085041; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">3-1</span>
+                <span style="flex-shrink: 0; background: #f7e7df; color: #6b2c1c; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">3-1</span>
                 <span>Declare a higher number → next player continues at step 3.</span>
               </div>
               <div style="display: flex; gap: 8px;">
-                <span style="flex-shrink: 0; background: #FCEBEB; color: #791F1F; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">3-2</span>
+                <span style="flex-shrink: 0; background: #f3d8d0; color: #893d24; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">3-2</span>
                 <span>If you think the previous number exceeds the real total, call <em>"Coyote!"</em> and go to step 4.</span>
               </div>
             </div>
 
             <div style="display: flex; gap: 10px; margin-bottom: 8px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">4</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">4</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Reveal and judge.</span> Lower all cards face-up and sum them.</div>
             </div>
             <div style="margin-left: 32px; background: var(--color-background-secondary); border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; font-size: 12.5px; line-height: 1.6;">
@@ -139,25 +143,25 @@
             </div>
             <div style="margin-left: 32px; margin-bottom: 12px; font-size: 13px; line-height: 1.5;">
               <div style="display: flex; gap: 8px; margin-bottom: 6px;">
-                <span style="flex-shrink: 0; background: #E1F5EE; color: #085041; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">4-1</span>
+                <span style="flex-shrink: 0; background: #f7e7df; color: #6b2c1c; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">4-1</span>
                 <span>Declared number <em>exceeds</em> the total → caller wins, previous player loses.</span>
               </div>
               <div style="display: flex; gap: 8px; margin-bottom: 6px;">
-                <span style="flex-shrink: 0; background: #FCEBEB; color: #791F1F; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">4-2</span>
+                <span style="flex-shrink: 0; background: #f3d8d0; color: #893d24; font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; height: fit-content;">4-2</span>
                 <span>Declared number <em>does not</em> exceed → caller loses, previous player wins.</span>
               </div>
               <div style="color: var(--color-text-secondary); font-size: 12.5px; padding-left: 4px;">Loser takes damage and loses a life.</div>
             </div>
 
             <div style="display: flex; gap: 10px; margin-bottom: 12px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">5</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">5</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Redeal.</span> Discard the used cards, then deal again from the deck. The round's winner is the next starting player.
                 <div style="color: var(--color-text-secondary); font-size: 12px; margin-top: 4px;">※ If a Night card (black "0") appeared, put the discard pile back into the deck and shuffle it.</div>
               </div>
             </div>
 
             <div style="display: flex; gap: 10px;">
-              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #1F5959; color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">6</div>
+              <div style="flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--color-accent); color: white; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center;">6</div>
               <div style="font-size: 13.5px; line-height: 1.5;"><span style="font-weight: 500;">Repeat 1–5 until one player remains.</span></div>
             </div>
           </div>
